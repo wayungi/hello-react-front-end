@@ -2,6 +2,8 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   message: '',
+  loading: false,
+  error: null,
 };
 
 export const greetingSlice = createSlice({
