@@ -5,12 +5,12 @@ const initialState = {
 };
 
 export const greetingSlice = createSlice({
-  name: 'greet',
+  name: 'greets',
   initialState,
   reducers: {},
   extraReducers: {},
 });
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount } = greetingSlice.actions
+export const { x } = greetingSlice.actions;
 export default greetingSlice.reducer;
