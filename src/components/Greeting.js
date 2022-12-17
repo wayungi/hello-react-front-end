@@ -20,7 +20,6 @@ const Greeting = () => {
 
   return (
     <div>
-      <h1>TO GREET 2</h1>
       { message }
     </div>
   );
